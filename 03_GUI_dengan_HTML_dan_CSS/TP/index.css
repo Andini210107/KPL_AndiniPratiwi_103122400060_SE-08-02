@@ -1,0 +1,39 @@
+body{
+    font-family: 'Inconsolata', monospace;
+    background-color: #f0f0f0;
+}
+
+.container{
+    width: 900px;
+    margin: 50px auto;
+}
+
+h1{
+    font-size: 40px;
+}
+
+textarea{
+    width: 100%;
+    resize: none;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    font-family: 'Inconsolata', monospace;
+    font-size: 16px;
+}
+
+.stat span{
+    color: coral;
+    font-weight: bold;
+}
+
+.tombol{
+    margin-top: 10px;
+}
+
+button{
+    padding: 6px 12px;
+    margin-right: 8px;
+    font-family: 'Inconsolata', monospace;
+    cursor: pointer;
+}
