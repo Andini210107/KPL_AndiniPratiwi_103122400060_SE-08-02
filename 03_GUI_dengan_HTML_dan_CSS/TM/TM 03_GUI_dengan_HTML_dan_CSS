@@ -1,4 +1,4 @@
-# Tugas Mandiri 03: GUI dengan HTML dan CSS
+## Tugas Mandiri 03: GUI dengan HTML dan CSS
 
 **Nama:** Andini Pratiwi  
 **NIM:** 103122400060  
@@ -10,25 +10,18 @@
 Soal
 Setelah kamu menyelesaikan tugas pendahuluan (bisa buka di atas), terapkanlah fungsi untuk (1) menghitung huruf kecil yang disediakan di #hk, (2) mengubah huruf kecil ke huruf besar ketika pengguna menekan tombol #huruf-besar, dan (3) mengubah huruf besar ke huruf kecil ketika pengguna menekan tombol #huruf-kecil. Untuk nomor 2 dan 3, tampilkan hasilnya di dalam editor-kecil. Kemudian, hapuslah fitur "Paragrafkan" dari alat.
 
-<h2>Program/Kode Sumber</h2>
-<p>
-  Kode bisa dicek di 
-  <a href="index.html">index.html</a>, 
-  <a href="index.css">index.css</a>, 
-  dan 
-  <a href="index.js">index.js</a>.
-</p>
+## Program/Kode Sumber
+
+Kode bisa dicek di sini:
+[index.html](index.html), 
+[index.js](index.js), 
+dan [index.css](index.css)
 
 ## Output
 
-<img src="image.png" width=350></img>
-<h2>Output</h2>
-<img src="Image1.png" alt="Output Program" width="800">
-<h2>Output</h2>
-<img src="Image2.png" alt="Output Program" width="800">
-<h2>Output</h2>
-<img src="Image3.png" alt="Output Program" width="800">
-
+![Output](Image1.png)
+![Output](Image2.png)
+![Output](Image3.png)
 
 ## Deskripsi
 Program ini merupakan sebuah web sederhana yang berfungsi sebagai pengonversi gaya teks. Pengguna dapat memasukkan teks ke dalam kolom textarea yang tersedia, kemudian sistem akan secara otomatis menampilkan jumlah karakter serta jumlah huruf kecil dari teks yang diketik secara real-time. Selain itu, aplikasi ini juga menyediakan dua tombol utama, yaitu tombol untuk mengubah seluruh teks menjadi huruf besar (uppercase) dan tombol untuk mengubah teks menjadi huruf kecil (lowercase). Dari segi tampilan, desain antarmuka dibuat menggunakan CSS dengan konsep flexbox agar posisi konten berada di tengah layar, serta ditambahkan elemen seperti padding, border radius, dan bayangan (shadow) untuk memberikan kesan modern dan rapi. Interaksi pada aplikasi ini dikendalikan oleh JavaScript yang menangani event input dan klik tombol, sehingga aplikasi dapat merespons tindakan pengguna secara langsung. Secara keseluruhan, aplikasi ini merupakan contoh implementasi dasar dari pengolahan teks berbasis web yang menggabungkan HTML sebagai struktur, CSS sebagai tampilan, dan JavaScript sebagai pengatur logika program.
