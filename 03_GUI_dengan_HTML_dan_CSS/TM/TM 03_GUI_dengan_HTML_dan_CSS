@@ -12,7 +12,7 @@ Setelah kamu menyelesaikan tugas pendahuluan (bisa buka di atas), terapkanlah fu
 
 ## Kode Sumber
 
-Kode bisa dicek disini [index.html](./index.html) , [index.js](./index.js) dan , [index.css](./index.css)
+Kode bisa dicek disini [index.html][def] , [index.js][def2] dan , [index.css][def3]
 
 ## Output
 ![1.](Image1.png) ![2.](Image2.png) ![3.](Image3.png)
@@ -20,3 +20,7 @@ Kode bisa dicek disini [index.html](./index.html) , [index.js](./index.js) dan ,
 ## Deskripsi
 
 Program ini merupakan sebuah web sederhana yang berfungsi sebagai pengonversi gaya teks. Pengguna dapat memasukkan teks ke dalam kolom textarea yang tersedia, kemudian sistem akan secara otomatis menampilkan jumlah karakter serta jumlah huruf kecil dari teks yang diketik secara real-time. Selain itu, aplikasi ini juga menyediakan dua tombol utama, yaitu tombol untuk mengubah seluruh teks menjadi huruf besar (uppercase) dan tombol untuk mengubah teks menjadi huruf kecil (lowercase). Dari segi tampilan, desain antarmuka dibuat menggunakan CSS dengan konsep flexbox agar posisi konten berada di tengah layar, serta ditambahkan elemen seperti padding, border radius, dan bayangan (shadow) untuk memberikan kesan modern dan rapi. Interaksi pada aplikasi ini dikendalikan oleh JavaScript yang menangani event input dan klik tombol, sehingga aplikasi dapat merespons tindakan pengguna secara langsung. Secara keseluruhan, aplikasi ini merupakan contoh implementasi dasar dari pengolahan teks berbasis web yang menggabungkan HTML sebagai struktur, CSS sebagai tampilan, dan JavaScript sebagai pengatur logika program.
+
+[def]: ./index.html
+[def2]: ./index.js
+[def3]: ./index.css
