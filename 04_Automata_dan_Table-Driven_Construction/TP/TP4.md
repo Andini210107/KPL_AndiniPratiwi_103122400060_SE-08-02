@@ -1,4 +1,4 @@
-# Tugas Pendahuluan 04: Automata dan Table Driven Construction
+## Tugas Pendahuluan 04: Automata dan Table Driven Construction
 
 **Nama:** Andini Pratiwi <br>
 **NIM:** 103122400060 <br>
