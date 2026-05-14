@@ -1,21 +1,21 @@
-// fungsi untuk melakukan pembagian
-function div(a, b){
-    //prakondisi
-    if (typeof a !== 'number' && typeof b !== 'number'){
-      throw new TypeError("gaboleh nol");
+// Fungsi untuk melakukan pembagian
+function div(a, b) {
+    if (typeof a !== 'number' && typeof b !== 'number') {
+        throw new TypeError("Salah tipe data untuk argumen a");
     }
-    if (b === 0){
+
+    if (b === 0) {
         return 0;
     }
 
-    const hasil = a/b;
-    //pascakondisi
-    if (hasil * b === a){
+    const hasil = a / b;
+
+    // Pascakondisi
+    if (hasil * b === a) {
         return hasil;
     }
+
     return 0;
-    
 }
-console.log(
-    div(20, 40)
-)
+
+console.log(div(20, 40));
