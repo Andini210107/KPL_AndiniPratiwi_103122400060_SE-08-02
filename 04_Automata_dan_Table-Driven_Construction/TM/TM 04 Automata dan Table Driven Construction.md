@@ -26,9 +26,9 @@ Ketentuan lainnya:
 Tersedia di [index.html](index.html), [index.css](index.css), dan [index.js](index.js)
 
 ## Output
-![image1.jpg](image1.jpg)
-![image2.jpg](image2.jpg)
-![image3.jpg](image3.jpg)
+![Image1.jpg](Image1.jpg)
+![Image2.jpg](Image2.jpg)
+![Image3.jpg](Image3.jpg)
 
 ## Deskripsi
 Program konversi gaya teks ini mampu menghitung jumlah karakter,
@@ -44,5 +44,3 @@ aksi dari tombol sepia. Program akan mengambil elemen tombol menggunakan documen
 pengguna melalui addEventListener. Saat tombol ditekan, sistem akan mengganti class pada elemen <body> menjadi "sepia-mode" 
 dengan perintah document.body.className = "sepia-mode";. Dengan cara ini, tampilan halaman dapat langsung berubah ke mode sepia 
 secara otomatis dan konsisten.
-
-[def]: :\Users\LOQ\Downloads\Praktikum_KPL\KPL_AndiniPratiwi_103122400060_SE-08-02\04_Automata_dan_Table-Driven_Construction\TM\Image1.pn

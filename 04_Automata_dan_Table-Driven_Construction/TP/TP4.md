@@ -18,9 +18,8 @@ contoh tampilan
 Tersedia di [index.html](index.html), [index.css](index.css), dan [index.js](index.js).
 
 ## Output
-![alt text](image1.jpg)
-![alt text](image2.jpg)
-![alt text](image3.jpg)
+![Image1.jpg](Image1.jpg)
+![Image2.jpg](Image2.jpg)
 
 ## Deskripsi
 Program konversi gaya teks ini tidak hanya mampu menghitung jumlah karakter, huruf kecil, dan huruf besar, tetapi juga 

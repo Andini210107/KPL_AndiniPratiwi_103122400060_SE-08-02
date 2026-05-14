@@ -1,16 +1,29 @@
-## TUGAS Mandiri 02: Pemrograman JavaScript
+# Tugas Mandiri 02: Pemrograman JavaScript
 
-Soal: Buatlah sebuah fungsi bernama fizzBuzz yang menerima input larik (array) dan mengembalikan deretan bilangan dan "Fizz" untuk kelipatan 2, "Buzz" untuk kelipatan 7, dan "FizzBuzz" untuk kelipatan 14. Beri nama berkas program sebagai tm.js dan taruh di direktori TM.
+**Nama:** Andini Pratiwi <br>
+**NIM:** 103122400060 <br>
+**Kelas:** SE-08-02 <br>
+**Dosen Pengampu:** Yudha Islami Sulistiya <br>
+**Asisten Praktikum:** Adhiansyah Muhammad Pradana Farawowan, Hamid Khaeruman <br>
 
-kode sumber: Tersedia di [test.js] [tm.js] 
+## Soal
+Buatlah sebuah fungsi bernama `fizzBuzz` yang menerima input larik *(array)* dan mengembalikan deretan bilangan dan "Fizz" untuk kelipatan 2, "Buzz" untuk kelipatan 7, dan "FizzBuzz" untuk kelipatan 14. Beri nama berkas program sebagai `tm.js` dan taruh di direktori `TM`.
 
-contoh: Input: [8, 9, 32, 75, 84] Output: Fizz 9 Fizz 75 FizzBuzz
+Contoh:
+```
+Input:
+[8, 9, 32, 75, 84]
 
-Output: 
-![alt text][def]
+Output:
+Fizz 9 Fizz 75 FizzBuzz
+```
 
-Deskripsi Program : Program tm.js berisi sebuah fungsi bernama fizzBuzz yang digunakan untuk memproses sebuah larik (array) berisi bilangan. Fungsi ini akan memeriksa setiap elemen dalam array dan menentukan apakah bilangan tersebut merupakan kelipatan dari angka tertentu.
-Fungsi fizzBuzz menerima sebuah parameter berupa array, kemudian melakukan perulangan untuk memeriksa setiap elemen menggunakan operasi modulus (%) untuk mengetahui apakah suatu bilangan merupakan kelipatan dari angka tertentu. Hasil pengolahan setiap elemen kemudian disimpan ke dalam array baru dan dikembalikan sebagai hasil akhir dari fungsi.
-Program ini membantu mempermudah proses pengecekan kelipatan angka dalam sebuah array dan menampilkan hasilnya dalam bentuk kombinasi angka dan teks sesuai dengan aturan yang telah ditentukan.
+## Program/Kode
+Tersedia di [test.js](test.js) dan [tm.js](tm.js)
 
-[def]: image.png
+## Output
+![Screenshoot](image.png)
+
+## Deskripsi
+Program ini merupakan implementasi FizzBuzz modifikasi menggunakan bahasa pemrograman JavaScript. Program dibuat untuk memproses array angka dengan aturan tertentu, yaitu angka yang habis dibagi 14 akan diubah menjadi “FizzBuzz”, angka yang habis dibagi 2 menjadi “Fizz”, dan angka yang habis dibagi 7 menjadi “Buzz”. Jika angka tidak memenuhi kondisi tersebut, maka angka akan ditampilkan seperti semula. Pada file `tm.js`, program menggunakan perulangan dan percabangan `if-else` untuk memeriksa setiap elemen array, kemudian hasilnya disimpan ke dalam array baru sebelum digabung menjadi output akhir menggunakan method `join()`.
+Selain itu, program juga menerapkan defensive programming dengan melakukan validasi input menggunakan `Array.isArray()` untuk memastikan data yang diterima berupa array. Jika input tidak valid, program akan menampilkan pesan “Input tidak valid”. Pada file `test.js`, dilakukan unit testing menggunakan module `assert` untuk menguji apakah output program sudah sesuai dengan yang diharapkan. Pengujian dilakukan pada beberapa kondisi, seperti input normal, angka negatif, penggunaan separator koma, serta input yang tidak valid. Dengan adanya pengujian tersebut, program menjadi lebih terstruktur, aman, dan mudah diverifikasi kebenarannya.
