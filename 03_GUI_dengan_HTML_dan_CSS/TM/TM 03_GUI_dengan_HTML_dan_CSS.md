@@ -43,9 +43,9 @@ Write, test, and fix code quickly with GitHub Copilot -> write, test, and fix co
 Tersedia di [index.html](index.html), [index.css](index.css), dan [index.js](index.js)
 
 ## Output
-![Image1.png](Image1.png)
-![Image2.png](Image2.png)
-![Image3.png](Image3.png)
+![image1.png](image1.png)
+![image2.png](image2.png)
+![image3.png](image3.png)
 
 ## Deskripsi
 Program ini merupakan sebuah web sederhana yang berfungsi sebagai pengonversi gaya teks. Pengguna dapat memasukkan teks ke dalam kolom textarea yang tersedia, kemudian sistem akan secara otomatis menampilkan jumlah karakter serta jumlah huruf kecil dari teks yang diketik secara real-time. Selain itu, aplikasi ini juga menyediakan dua tombol utama, yaitu tombol untuk mengubah seluruh teks menjadi huruf besar (uppercase) dan tombol untuk mengubah teks menjadi huruf kecil (lowercase). Dari segi tampilan, desain antarmuka dibuat menggunakan CSS dengan konsep flexbox agar posisi konten berada di tengah layar, serta ditambahkan elemen seperti padding, border radius, dan bayangan (shadow) untuk memberikan kesan modern dan rapi. Interaksi pada aplikasi ini dikendalikan oleh JavaScript yang menangani event input dan klik tombol, sehingga aplikasi dapat merespons tindakan pengguna secara langsung. Secara keseluruhan, aplikasi ini merupakan contoh implementasi dasar dari pengolahan teks berbasis web yang menggabungkan HTML sebagai struktur, CSS sebagai tampilan, dan JavaScript sebagai pengatur logika program.
